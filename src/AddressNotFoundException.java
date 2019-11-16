@@ -3,7 +3,7 @@
  * @author Ethan Huynh
  *
  */
-public class AddressNotFoundException extends Exception {
+public class AddressNotFoundException extends IllegalArgumentException {
 	/**
 	 * Inherits the Exception's ctor
 	 * @param message
